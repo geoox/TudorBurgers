@@ -18,13 +18,71 @@ body, html {
 
 }
 
+/*mobile*/
+
+@media only screen and (max-width: 600px) {
+    #map #map-img{
+        height:50vh !important;
+    }
+
+    #bucuresti{
+        position: absolute;
+        transform: rotate(-3.8deg);
+        top:135% !important;
+        left:59%;
+    }
+    
+    #ploiesti{
+        position: absolute;
+        transform: rotate(-3.8deg);
+        top:127% !important;
+        left:57%;
+    }
+    
+    #brasov{
+        position: absolute;
+        transform: rotate(-3.8deg);
+        top:120% !important;
+        left:51%;
+    }
+    
+    #focsani{
+        position: absolute;
+        transform: rotate(-3.8deg);
+        top:118% !important;
+        left:67%;
+    }
+
+    .orase img{
+        z-index: 10;
+        width:40px !important;
+    
+    }
+
+    #googleMap{
+        width:100% !important;
+        height: 450px !important;
+        margin:auto;
+    }
+
+    #bucuresti-modal.modal.open{
+        width:95% !important;
+    }
+
+
+}
+
+#googleMap{
+    width:100%;
+    margin:auto;
+}
+
 #map #map-img{
     height:100vh;
     max-width:100%;
     margin-top:100vh;
     background-size: cover;
     background-repeat: no-repeat;
-
     z-index:1;
 }
 
@@ -74,4 +132,8 @@ body, html {
     margin:auto;
     margin-top: 5%;
     margin-bottom: 5%;
+}
+
+.slider .indicators .indicator-item.active{
+    background-color: rgb(73, 39, 35) !important;
 }
