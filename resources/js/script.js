@@ -9,10 +9,15 @@ $(document).ready(function(){
     }
     
 });
+Webflow.push(function() {
+$('#bucuresti').click(function(e) {
+  e.preventDefault();
+$('body').css('overflow', 'hidden');
+});
 
-function initMap(){
-  var map = new google.maps.Map(document.getElementById('googleMap'), {
-    gestureHandling:'none',
-    zoomControl:false
-  });
-}
+$('#bucuresti').click(function(e) {
+  e.preventDefault();
+$('body').css('overflow', 'auto');
+
+});
+});

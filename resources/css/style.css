@@ -71,9 +71,11 @@ body{
         margin:auto;
     }
 
+
+
     .modal-overlay{
-        overflow: hidden;
-        position:fixed;
+        overflow: hidden !important;
+        position:fixed !important;
     }
 
     #bucuresti-modal.modal.open, #brasov-modal.modal.open, #ploiesti-modal.modal.open, #focsani-modal.modal.open, #contact-modal.modal.open{
@@ -85,6 +87,7 @@ body{
     .modal-footer{
 
     }
+
 
 
 }
