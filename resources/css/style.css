@@ -1,7 +1,10 @@
 body, html {
     height: 100%;
     margin: 0;
-    overflow-y: hidden;
+}
+
+body{
+    overflow:auto;
 }
 
 .logoSlider{
@@ -17,8 +20,7 @@ body, html {
 
 .modal {
     width: 70% !important ;
-    max-height: 80% !important
-
+    overflow: scroll;
 }
 
 /*mobile*/
