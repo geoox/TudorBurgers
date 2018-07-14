@@ -73,6 +73,7 @@ body{
 
     body modal.open{
         overflow: hidden;
+        position:fixed;
     }
 
     #bucuresti-modal.modal.open, #brasov-modal.modal.open, #ploiesti-modal.modal.open, #focsani-modal.modal.open, #contact-modal.modal.open{
