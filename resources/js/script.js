@@ -9,7 +9,7 @@ $(document).ready(function(){
     }
     
 });
-Webflow.push(function() {
+
 $('#bucuresti').click(function(e) {
   e.preventDefault();
 $('body').css('overflow', 'hidden');
@@ -19,5 +19,4 @@ $('#bucuresti').click(function(e) {
   e.preventDefault();
 $('body').css('overflow', 'auto');
 
-});
 });
