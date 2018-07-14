@@ -3,16 +3,16 @@ body, html {
     margin: 0;
 }
 
-body{
-    overflow:auto;
-}
+
 
 .logoSlider{
     width:300px !important;
 
 }
 
-
+body.modal.open{
+    overflow:hidden !important;
+}
 
 .fullscreen .indicators{
     visibility: hidden;
@@ -28,6 +28,7 @@ body{
 @media only screen and (max-width: 770px) {
     #map #map-img{
         height:50vh !important;
+        background-size: cover !important;
     }
 
     #bucuresti{
@@ -102,7 +103,7 @@ body{
     height:100vh;
     max-width:100%;
     margin-top:100vh;
-    background-size: cover;
+    background-size: cover !important;
     background-repeat: no-repeat;
     z-index:1;
 
