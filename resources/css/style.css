@@ -227,6 +227,10 @@ footer{
     padding-top:4%;
   }
 
+  body.modal-open {
+    overflow: hidden;
+}
+
 
 /*end footer*/
 
