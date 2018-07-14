@@ -10,4 +10,9 @@ $(document).ready(function(){
     
 });
 
-
+function initMap(){
+  var map = new google.maps.Map(document.getElementById('googleMap'), {
+    gestureHandling:'none',
+    zoomControl:false
+  });
+}
