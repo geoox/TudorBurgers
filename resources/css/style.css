@@ -71,7 +71,7 @@ body{
         margin:auto;
     }
 
-    body modal.open{
+    body.modal.open{
         overflow: hidden;
         position:fixed;
     }
@@ -79,6 +79,7 @@ body{
     #bucuresti-modal.modal.open, #brasov-modal.modal.open, #ploiesti-modal.modal.open, #focsani-modal.modal.open, #contact-modal.modal.open{
         width:95% !important;
         background-color: #f5d5a0;
+        overflow:scroll;
     }
 
     .modal-footer{
