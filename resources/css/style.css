@@ -22,7 +22,7 @@ body, html {
 
 /*mobile*/
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 600px) {
     #map #map-img{
         height:50vh !important;
     }
