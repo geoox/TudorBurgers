@@ -28,10 +28,6 @@ body, html {
 
 
 
-    #map #map-img{
-        height:50vh !important;
-    }
-
     #bucuresti{
         position: absolute;
         transform: rotate(-3.8deg);
@@ -257,7 +253,8 @@ footer{
  }
  
 #cards{
-    margin-top: 100vh;
+    margin-top: 90vh;
+    padding-top: 30% !important;
     padding-bottom: 10%;
 }
 
