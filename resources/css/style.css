@@ -272,3 +272,21 @@ i.material-icons{
     background-color:#492723;
     color: #f5d5a0 !important;
 }
+
+/*Loader*/
+
+.loader {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: black;
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;	
+    background: url('../img/loader.gif') 50% 50% no-repeat; 
+    background-color: #f5d5a0;
+
+}
