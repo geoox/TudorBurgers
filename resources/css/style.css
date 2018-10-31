@@ -83,11 +83,15 @@ body, html {
 }
 
 #map, #instagram{
+    text-align: center;
+}
+
+#background{
     background-color: #492723;
     background-image: linear-gradient(90deg, transparent 50%,
     #f5d5a0 50%);
     background-size: 100px 100px;
-    text-align: center;
+    
 }
 
 #map #map-img{
@@ -299,6 +303,6 @@ i.material-icons{
 
 #instagram iframe{
     margin: 5em 0 5em 0 !important;
-    width: 70vw !important;
+    width: 80vw !important;
     margin: auto;
 }
